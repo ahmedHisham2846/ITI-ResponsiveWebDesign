@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+  body {
+    grid-template-areas:
+      "head head head head"
+      "sBar sBar sBar sBar"
+      "mContent mContent mContent mContent"
+      "sNav sNav sNav sNav"
+      "foot foot foot foot ";
+  }
+}

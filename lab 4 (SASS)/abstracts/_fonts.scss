@@ -1,0 +1,7 @@
+$i: 14;
+@while $i <= 18 {
+  .font-#{$i}px {
+    font-size: #{$i}px;
+  }
+  $i: $i + 2;
+}

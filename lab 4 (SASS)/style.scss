@@ -1,0 +1,38 @@
+@import "./abstracts/colors";
+@import "./abstracts/fonts";
+@import "./components/buttons";
+
+.main {
+  &-title {
+    color: $primaryColor;
+  }
+
+  &subtitle {
+    color: $secondaryColor;
+  }
+
+  &btn {
+    @extend %btn;
+    color: $primaryColor;
+    &:hover {
+      color: $secondaryColor;
+    }
+  }
+}
+
+.finish-btn {
+  @extend %btn;
+  text-align: center;
+
+  @media (max-width: 567px) {
+    width: 100%;
+  }
+
+  @media (min-width: 568px) and (max-width: 900px) {
+    width: 50%;
+  }
+
+  @media (min-width: 901px) {
+    width: 2/12 * 100%;
+  }
+}

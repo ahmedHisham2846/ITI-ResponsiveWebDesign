@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "head head head head"
+    "sBar mContent mContent sNav"
+    "sBar mContent mContent sNav"
+    "sBar mContent mContent sNav"
+    "foot foot foot foot ";
+  grid-auto-rows: minmax(200px, auto);
+}
+
+header {
+  background-color: burlywood;
+  grid-area: head;
+}
+
+main {
+  grid-area: mContent;
+  background-color: black;
+  color: #fff;
+}
+
+#sideNav {
+  grid-area: sBar;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+#sideBar {
+  background-color: blueviolet;
+  grid-area: sNav;
+  color: #fff;
+}
+
+footer {
+  background-color: burlywood;
+  grid-area: foot;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

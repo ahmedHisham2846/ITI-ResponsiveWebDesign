@@ -1,0 +1,53 @@
+.font-14px {
+  font-size: 14px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.finish-btn, .main .main-btn {
+  transition: 0.3s;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d9d9ee;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main .main-title {
+  color: #4a4a92;
+}
+.main .main-subtitle {
+  color: #4a928f;
+}
+.main .main-btn {
+  color: #4a4a92;
+}
+.main .main-btn:hover {
+  color: #4a928f;
+}
+
+.finish-btn {
+  text-align: center;
+}
+@media (max-width: 567px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+@media (min-width: 568px) and (max-width: 900px) {
+  .finish-btn {
+    width: 50%;
+  }
+}
+@media (min-width: 901px) {
+  .finish-btn {
+    width: 16.6666666667%;
+  }
+}/*# sourceMappingURL=style.css.map */
